@@ -10,5 +10,15 @@ Introdução ao javaScript para programação Web.
 - Back-End: depende da plataforma Node.js, depende de linha de comando
 - JS pode ser usado tambem para criação de aplicações web usando tecnologia react, angular, react native etc.
 
+## Onde usar o JS dentro do front-End?
+
+- Funcionalidades de menu responsivo
+- Galeria de fotos
+- Carrossel / Slider de conteudo
+- Recursos avançados de formularios (validação mais profissionais, intregração com API)
+- Interações avançadas de (teclado, mouse, gestos  etc)
+
+
+
 
 
