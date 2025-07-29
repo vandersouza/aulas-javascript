@@ -1,2 +1,2 @@
-# aulas-javacript
+# aulas-javascript
 Aulas Senac java script
