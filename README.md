@@ -18,7 +18,14 @@ Introdução ao javaScript para programação Web.
 - Recursos avançados de formularios (validação mais profissionais, intregração com API)
 - Interações avançadas de (teclado, mouse, gestos  etc)
 
+---
+## Sobre arrays 
 
 
+Arrays sao estruturas de dados **indexados**, também conhecido como vetores ou matrizes
+
+Na prática, um array é uma lista de dados sequenciais , e cada dado é armazenado em uma posição do array.
+
+**Obs** a contagem dos indices **sempre começa em zero**.
 
 

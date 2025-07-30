@@ -1,3 +1,8 @@
+
+
+//habilitando modo estrito em javascript
+'use strict'
+
 //Exercicios
 
 // Crie uma variavel chamada "uc" e coloque nela o numero da UC que estamos.
