@@ -28,4 +28,11 @@ Na prática, um array é uma lista de dados sequenciais , e cada dado é armazen
 
 **Obs** a contagem dos indices **sempre começa em zero**.
 
+## Sobre Objetos 
+
+Objetos tam sao estruturas de dados so que **nao indexados**, ou seja o acesso ao dados e feito de forma diferente do que vimos nos arrais
+no objetos acessamos atraves de **propriedades** e **valores**, declarados no objetos.
+
+Normalmente, o objeto é programado de acordo com o texto relacionbado ao mundo real.
+
 
