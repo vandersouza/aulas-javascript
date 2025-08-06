@@ -36,3 +36,6 @@ no objetos acessamos atraves de **propriedades** e **valores**, declarados no ob
 Normalmente, o objeto é programado de acordo com o texto relacionbado ao mundo real.
 
 
+
+
+
