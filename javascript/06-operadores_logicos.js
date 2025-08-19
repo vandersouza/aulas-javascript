@@ -64,6 +64,23 @@ else{
   
 }
 
+console.log("\nOperadores Logicos NOT !");
+
+/*! -> Inverte a logica O que é TRUE vira FALSE ou verdadeiro vira falso */
+
+
+let blackFriday = true;
+
+if (!blackFriday) {
+
+    console.log("preços normais");
+      
+}
+
+else{
+
+    console.log("preços com mais descontos");
+}
 
 
 
