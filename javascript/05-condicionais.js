@@ -54,8 +54,8 @@ Caso contrário, mostre "reprovado".*/
 
 
 
-let nota1 = 3;
-let nota2 = 2;
+let nota1 = 4;
+let nota2 = 4;
 
 let media = nota1 + nota2 / 2;
 
@@ -73,8 +73,64 @@ if (media == 5) {
 if (media < 5) {
 
     console.log("Aluno reprovado");
-
 }
+
+console.log("\nExercicio Condicional Encadeada");
+
+/*Condicional Encadeada / Sucesssiva
+
+
+verificar o desempenho do aluno
+
+- media acima de 9? ótimo
+- media acima de 7? bom
+- media até de 5? ruim
+*/
+
+
+if (media > 9) {
+   
+console.log("Ótimo");
+}
+
+else if (media > 7) {
+   
+console.log("bom");
+}
+
+else if (media > 5) {
+   
+console.log("Ruim");
+}
+
+else{
+
+    console.log("Péssimo");
+    
+}
+console.log(media);
+
+
+console.log("\nCondicional composta com oprador ternario");
+
+
+
+/*Condicional composta com oprador ternario
+
+usados em ternario
+?  :   
+
+*/
+
+let situacao = idade >=18 ? "maior" :"menor";
+
+console.log(situacao);
+
+
+
+
+
+
 
 
 
