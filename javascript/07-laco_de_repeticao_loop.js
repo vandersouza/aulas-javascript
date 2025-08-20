@@ -118,18 +118,21 @@ const clientes = [
 {
 
     nome: "Dio",
-    id: "01"
+    id: "01",
+    idade:24
 },
 
 
  {                                  
     nome: "Ozzy",
-    id: "02"
+    id: "02",
+    idade:42
  },
 
  {
     nome: "Ian",
-    id: "03"
+    id: "03",
+    idade:52
 
 },
 
@@ -147,13 +150,32 @@ const clientes = [
 
  /*Usando for puro para percorrer um array de objetos*/
  
-   let quantidade = clientes.length;
-   for(i = 0; i < quantidade ; i++){
+   /*let quantidade = clientes.length;*/
+   /*for(i = 0; i < quantidade ; i++){
 
 
-    console.log(`Clientes:${clientes[i].nome} ID:${clientes[i].id} `);
+    console.log(`Clientes:${clientes[i].nome} ID:${clientes[i].id} Idade: ${clientes[i].idade}`);
    
-   }
+   }*/
+
+
+   
+/*Usando While para percorrer o Array de objetos*/
+
+let z = 0;
+
+let quantidade = clientes.length;
+
+while (z < quantidade) {
+    console.log(`Cliente: ${clientes[z].nome} | ID: ${clientes[z].id} | Idade: ${clientes[z].idade}`);
+    z++;
+}
+
+    
+
+
+
+   
 
 
 
