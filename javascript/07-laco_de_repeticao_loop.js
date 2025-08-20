@@ -10,8 +10,16 @@ Normalmente os loops são controlados atraves de uma variavel contadora
 */
 
 
+console.log("Exemplo 1: While (enquanto)")
 
+let contador = 1;
 
+while( contador <= 5){
+
+console.log("passagem do loop"+contador);
+contador++;
+
+}
 
 
 
