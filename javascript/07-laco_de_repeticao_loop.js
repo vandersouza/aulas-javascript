@@ -63,9 +63,112 @@ for(let i = 0; i <= bandas.length; i++ ){
 
     console.log(i +bandas[i]);
     
+}
 
+console.log("\nExemplo 5: loop e array com forOf");
+
+
+/*Utilizado exclusivamente pata JS for/of*/
+for(const banda of bandas){
+
+    console.log(banda);
 
 }
+
+console.log("\nExemplo 5: loop com objeto");
+
+
+const pessoa = {
+
+    nome:"Joao santana",
+    idade: 40,
+    cidade: "São Paulo",
+    estado:"SP"
+};
+
+
+/*console.log(pessoa.nome);/*Exemplo de um a 1*/
+
+/*Usando o loop for/in para objetos (exclusivos em JS)*/
+
+for(const prop in pessoa){
+
+    console.log(pessoa[prop]);
+   
+}
+
+
+console.log("\nExemplo 7: Exercicio laços");
+
+
+/*1. Faça um array chamado "clientes" contendo 3 objetos.
+ 
+Cada objeto deverá ter uma propriedade "identificador" (com valores 1, 2 e 3) e uma propriedade "nome" (com os nomes dos clientes: "Dio", "Ozzy" e "Ian").
+ 
+2. Faça um loop (qualquer um dos que vimos) e mostre no console os dados de cada cliente conforme a seguir:
+ 
+- Cliente: Dio, id: 1
+- Cliente: Ozzy, id: 2
+- Cliente: Ian, id: 3 
+
+*/
+
+const clientes = [
+    
+{
+
+    nome: "Dio",
+    id: "01"
+},
+
+
+ {                                  
+    nome: "Ozzy",
+    id: "02"
+ },
+
+ {
+    nome: "Ian",
+    id: "03"
+
+},
+
+]
+
+
+/*Usando for/of para para mostrar array de objetos/*
+
+/*for(const cliente2 of clientes){
+
+    /*console.log("Cliente: "+cliente2.Cliente + ",ID:"+cliente2.id);*/
+
+   /* console.log(`Cliente:${cliente2.Cliente}ID:${cliente2.id}`);
+  }*/
+
+ /*Usando for puro para percorrer um array de objetos*/
+ 
+   let quantidade = clientes.length;
+   for(i = 0; i < quantidade ; i++){
+
+
+    console.log(`Clientes:${clientes[i].nome} ID:${clientes[i].id} `);
+   
+   }
+
+
+
+
+
+    
+
+
+    
+
+
+
+
+
+
 
 
 
