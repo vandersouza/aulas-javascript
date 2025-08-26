@@ -1,11 +1,5 @@
 'use strict';
 
-
-
-
-
-
-
 const pessoa = ["pedro","joao","carlos"] /*Declaração do array em sua forma literal*/
 
 for(let i = 0; i < pessoa.length; i++ ){ /* Quando usamos For como laço essa é a forma padrão de declarar para que 
@@ -14,15 +8,6 @@ for(let i = 0; i < pessoa.length; i++ ){ /* Quando usamos For como laço essa é
     console.log(`Nomes de Clientes ${pessoa[i]}`); /*saida com as informações fornecidas pelo array*/
     
 }
-
-
-
-
-
-
-
-
-
 
 
 
@@ -128,7 +113,9 @@ const cadastroAparelhoCelular = {
 }
 
 let j = 0;
-let chaves = Object.keys(cadastroAparelhoCelular); // pega as propriedades
+let chaves = Object.keys(cadastroAparelhoCelular); // Object.keys pega as propriedades do objeto e transforma em um array (chaves) 
+
+
 let percorre = chaves.length;
 
 while (j < percorre) {
