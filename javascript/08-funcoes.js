@@ -60,12 +60,40 @@ exemplo2();
    
    */
 
+   console.log("\nExemplo 4: função com parâmetro");
+
+function saudacao(nome = "visitante"){
+
+console.log("Olá, "+nome);
+
+};
+
+
+saudacao("Vanderlei");
+saudacao("tiago");
+saudacao("José");
+saudacao();
 
 
 
+console.log("\nExemplo 5: função com parâmetro e retorno");
 
+/*Sempre tivermos a necessidade de trabalhar com o resultado do processamento de uma função
+então essa função deve ter o return*/
+function multiplicar(valor1, valor2){
 
-    
+    return valor1 * valor2
+
+}
+
+/*Chamamos a função e recebemos o retorno/resultado dela*/
+let resultado1 = multiplicar(10, 5);
+let resultado2 = multiplicar(200, 10);
+
+//exibimos o resultado
+ console.log("Resultado 1: "+resultado1);
+ console.log("Resultado 2: "+resultado2);
+ 
 
 
     
