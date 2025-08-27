@@ -265,3 +265,4 @@ if(figura === "retangulo") {
 } else {
     console.log("Figura inválida!");
 }
+
