@@ -196,3 +196,72 @@ function mostrarArea(largura, altura) {
 // Testando
 mostrarArea(12, 25); // A área do retângulo é: 300
 mostrarArea(5, 10);  // A área do retângulo é: 50
+
+
+
+
+/*Crie uma função chamada areaTriangulo que receba base e altura de um triângulo e retorne a área.*/
+
+function AreaTriangulo(base, altura){
+
+    return (base * altura) / 2
+
+}
+
+let tamanhoTriangulo = AreaTriangulo(50, 30)
+
+console.log("O tamanho do triangulo é: "+ tamanhoTriangulo);
+
+/*Exercício: Área do Círculo */
+
+function AreaCirculo (raio){
+
+    return Math.PI * raio * raio
+}
+
+let tamanhoCirculo = AreaCirculo(20)
+
+console.log("O tamanho do Circulo é: "+tamanhoCirculo);
+
+/*Exercício: Perímetro do Círculo (Circunferência)
+
+Crie uma função chamada perimetroCirculo que receba o raio e retorne o perímetro do círculo. */
+
+
+// Funções para calcular áreas
+function areaRetangulo(largura, altura) {
+    return largura * altura;
+}
+
+function areaTriangulo(base, altura) {
+    return (base * altura) / 2;
+}
+
+function areaCirculo(raio) {
+    return Math.PI * raio * raio;
+}
+
+// Perguntar ao usuário qual figura ele quer calcular
+let figura = prompt("Qual figura você quer calcular a área? (retangulo, triangulo, circulo)");
+
+// Calcular a área dependendo da escolha do usuário
+if(figura === "retangulo") {
+    let largura = Number(prompt("Digite a largura do retângulo:"));
+    let altura = Number(prompt("Digite a altura do retângulo:"));
+    let resultado = areaRetangulo(largura, altura);
+    console.log("A área do retângulo é: " + resultado);
+
+} else if(figura === "triangulo") {
+    let base = Number(prompt("Digite a base do triângulo:"));
+    let altura = Number(prompt("Digite a altura do triângulo:"));
+    let resultado = areaTriangulo(base, altura);
+    console.log("A área do triângulo é: " + resultado);
+
+} else if(figura === "circulo") {
+    let raio = Number(prompt("Digite o raio do círculo:"));
+    let resultado = areaCirculo(raio);
+    console.log("A área do círculo é: " + resultado);
+
+} else {
+    console.log("Figura inválida!");
+}
