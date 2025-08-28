@@ -110,19 +110,33 @@ refe.addEventListener("click",(eventos) =>{
 
 const botaoModoNoturno = document.querySelector("#noturno");
 
-const textoButton = document.querySelector("span")
 
-botaoModoNoturno.addEventListener("click", function(){
+/*botaoModoNoturno.addEventListener("click", function(){
 
 corpo.classList.toggle("modo-noturno");
 
-botaoModoNoturno.textContent = "Desativar";
+if(corpo.classList.toggle("modo-noturno" == false)){
 
-if(botaoModoNoturno){}
+    botaoModoNoturno.textContent = "Desativar"
+}
+else{
 
+     botaoModoNoturno.textContent = "Ativar"
+}
 
+});*/
 
-});
+//Outro mode de fazer
+
+botaoModoNoturno.addEventListener("click", function() {
+    corpo.classList.toggle("modo-noturno");
+
+    if (corpo.classList.contains("modo-noturno")) {
+        botaoModoNoturno.textContent = "Desativar";
+    } else {
+        botaoModoNoturno.textContent = "Ativar";
+    }
+}); 
 
 /* DESAFIOS!
     1) Faça a mudança de cores acontecer gradualmente (use o transition!)
