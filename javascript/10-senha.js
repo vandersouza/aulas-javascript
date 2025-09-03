@@ -20,8 +20,8 @@ campoSenha.type = "password";
 
 });
 
+/*declarando função para receber evento de mexer mouse */
 btnMostrar.addEventListener("pointerout", function(){
-
 
 campoSenha.type ="password"
 
