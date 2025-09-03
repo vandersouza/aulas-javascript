@@ -60,7 +60,7 @@ mensagem1.addEventListener("dbclick", function(){
 const paraHum = document.querySelector(".paragrafo");
 
 
-/*paraHum.addEventListener('mouseover', function() {
+paraHum.addEventListener('mouseover', function() {
   
     paraHum.textContent = "Praticando Eventos!";
 
@@ -80,12 +80,12 @@ ref.addEventListener("click",function(){
    paraHum.style.textAlign = "left"
 
 
-});*/
+});
 
 
 
 
-paraHum.addEventListener("mouseover",(event) => {
+/*paraHum.addEventListener("mouseover",(event) => {
     // highlight the mouseover target
     event.target.style.color = "orange";
     event.target.style.textContent = "Eventos";
@@ -103,7 +103,7 @@ refe.addEventListener("click",(eventos) =>{
 
 
 
-})
+})/*
 
 
 /*Exemplo 3 Modo noturno*/
@@ -129,14 +129,29 @@ else{
 //Outro mode de fazer
 
 botaoModoNoturno.addEventListener("click", function() {
+    
     corpo.classList.toggle("modo-noturno");
+
+    corpo.style.transition = "2s";
 
     if (corpo.classList.contains("modo-noturno")) {
         botaoModoNoturno.textContent = "Desativar";
-    } else {
+    } 
+    
+    else {
+        
         botaoModoNoturno.textContent = "Ativar";
+        
     }
+
+
 }); 
+
+
+
+
+    
+
 
 /* DESAFIOS!
     1) Faça a mudança de cores acontecer gradualmente (use o transition!)
